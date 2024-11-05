@@ -39,7 +39,7 @@ export default function Sidebar() {
             <GrUserAdmin className='text-xl' />
             <span className='ml-3'>Admins</span>
           </button>
-          <button       onClick={() => setSelectedItem("Inbox")}  className="text-gray-600 hover:text-white hover:bg-red-500 text-lg flex items-center w-full px-4 py-3 rounded transition-all">
+          <button       onClick={() => handleNavigation("/Inbox","Inbox")}  className="text-gray-600 hover:text-white hover:bg-red-500 text-lg flex items-center w-full px-4 py-3 rounded transition-all">
             <SiImessage className='text-xl' />
             <span className='ml-3'>Inbox</span>
           </button>

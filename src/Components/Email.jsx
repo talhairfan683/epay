@@ -1,8 +1,13 @@
 import { useState } from 'react'
 import '../App.css'
+import { useNavigate } from 'react-router-dom';
 
 function Email() {
-  const [count, setCount] = useState(0)
+  const navigate = useNavigate();
+
+  function gotologin() {
+     navigate ("/Layout")
+  }
 
   return (
     <>
@@ -47,7 +52,7 @@ function Email() {
                       </div>
                      
                       
-                        <button class="button-22 " role="button">Log in</button>
+                        <button onClick={gotologin} class="button-22 " role="button">Log in</button>
                       
                     </form>
                 </div>
