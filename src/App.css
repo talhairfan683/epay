@@ -1,0 +1,74 @@
+.coin{
+  background-color: #CDDEFC;
+}
+/* CSS */
+.button-22 {
+  align-items: center;
+  appearance: button;
+  background-color: #ff6262;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "RM Neue",sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 12px 50px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 18%;
+}
+
+.button-22:active {
+  background-color: #ff6262;
+}
+
+.button-22:hover {
+  background-color: #f54040;
+}
+.inputGroup {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 1em 0 1em 0;
+  max-width: 190px;
+  position: relative;
+}
+
+.inputGroup input {
+  font-size: 100%;
+  padding: 0.8em;
+  outline: none;
+  border: 2px solid rgb(200, 200, 200);
+  background-color: transparent;
+  border-radius: 20px;
+  width: 200%;
+}
+
+/* coinpng */
+
+
+
+.eamil-btn{
+  margin-top: 139%;
+}
+
+/* HEADER */
+
+
+.container-fluid {
+  position: relative;
+  z-index: 10; /* Ensure it's above the navbar */
+}
+
+
+
+
