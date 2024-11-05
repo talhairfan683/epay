@@ -13,7 +13,7 @@ const App = () => {
     <div>
          <BrowserRouter>
       <Routes>
-        <Route path="/Email" element={<Email/>}/>
+        <Route path="/" element={<Email/>}/>
        
         <Route path="/layout" element={<Layout/>}/>
         <Route path='/epaycoin'element={<Layout><Epaycoin/></Layout>}></Route>

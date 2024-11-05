@@ -44,7 +44,7 @@ export default function Sidebar() {
             <span className='ml-3'>Inbox</span>
           </button>
         </ul>
-        <button     onClick={() => handleNavigation("/Email", "Logout")}  className="text-gray-600 hover:text-white hover:bg-red-500 text-lg flex items-center w-full px-4 py-3 rounded transition-all mb-6">
+        <button     onClick={() => handleNavigation("/", "Logout")}  className="text-gray-600 hover:text-white hover:bg-red-500 text-lg flex items-center w-full px-4 py-3 rounded transition-all mb-6">
           <FiLogOut className='text-xl' />
           <span className='ml-3'>Logout</span>
         </button>
