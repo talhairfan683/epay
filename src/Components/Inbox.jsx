@@ -36,7 +36,7 @@ export const Inbox = () => {
               <button
                 type="button"
                 onClick={handleEditClick}
-                className="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-6 py-2.5 me-2 mb-3 dark:bg-red-500 dark:hover:bg-red-700 ml-28 mt-3 dark:focus:ring-red-500"
+                className="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-6 py-2.5 me-2 mb-3 dark:bg-red-500 dark:hover:bg-red-700 ml-24 mt-3 dark:focus:ring-red-500"
               >
                 Edit Details
               </button>
