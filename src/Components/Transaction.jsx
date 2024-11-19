@@ -16,7 +16,7 @@ export const Transaction = () => {
     <>
       <p className='text-2xl tracking-wide font-semibold  mt-24 ml-10'>Transactions</p>
 
-    <div className='ml-16 w-5/6'>
+    <div className='ml-16'>
       <div className=' border-opacity-45 m-3'>
         <div className='border-solid border-2 border-gray-40 rounded-2xl h-20 grid grid-cols-7 items-center'>
           <div className='text-center text-neutral-500'>

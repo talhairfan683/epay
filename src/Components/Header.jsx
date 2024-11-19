@@ -15,7 +15,7 @@ export const Header = () => {
         <div className='row'>
         
           <div className='col-5'>
-            <form className="max-w-md  ml-52">
+            <form className="max-w-md  ml-60">
               <label htmlFor="search" className="sr-only">Search</label>
               <div className="flex items-center px-4 py-3 rounded-md border-2 border-gray-300 overflow-hidden font-[sans-serif]">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.904 192.904" width="25px" className="fill-gray-600 mr-3 rotate-90">
